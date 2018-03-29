@@ -9,6 +9,16 @@ describe('copy()', () => {
 		rm.sync('.temp');
 	});
 
+	it('fails if trying to copy more than one file', () => {
+		return stak({
+			source: 'test/fixtures/**/*',
+			output: '.temp/sample1.md',
+			bundlers: ['./lib/stakcss-bundler-copy.js']
+		}).then((result) => {
+			assert.ok(result instanceof Error);
+		});
+	});
+
 	it('copies content to output path', () => {
 		return stak({
 			source: 'test/fixtures/**/*',

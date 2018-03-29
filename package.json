@@ -1,6 +1,6 @@
 {
 	"name": "@brikcss/stakcss-bundler-copy",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Simple Stakcss bundler to copies assets.",
 	"author": "Brikcss <https://github.com/brikcss>",
 	"contributors": [
