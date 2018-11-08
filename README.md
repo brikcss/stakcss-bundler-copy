@@ -1,5 +1,7 @@
 # Stakcss Copy Bundler
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/brikcss/stakcss-bundler-copy.svg)](https://greenkeeper.io/)
+
 > Bundler for [Stakcss](https://github.com/brikcss/stakcss) that simply copies assets from `config.source` to `config.content`.
 
 <!-- Shields. -->
